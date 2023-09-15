@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #262626;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 0 #262626;
+}
+.mtb1 {
+    background-image: url("Images/mtb-1.png");
+}
+.mtb2 {
+    background-image: url("Images/mtb-2.png");
+}
+.mtb3 {
+    background-image: url("Images/mtb-3.png");
+}
+.mtb4 {
+    background-image: url("Images/mtb-4.png");
+}
+.mtb5 {
+    background-image: url("Images/mtb-5.png");
+}
+.mtb6 {
+    background-image: url("Images/mtb-6.png");
+}
+.bike img {
+    object-fit: cover;
+    width: 100%;
+}
+.bike {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-color: white;
+    outline: none;
+    border: 20px solid #262626;
+    border-radius: 25px;
+    font-size: 5rem;
+    font-family: 'Roboto', cursive;
+    font-weight: 900;
+    line-height: 5;
+    color: transparent;
+    text-shadow: 3px 0 transparent;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    text-align: center;
+   }
